@@ -36,7 +36,7 @@
     $p3->setNombre("Manolo");
     $p3->setMateria("Filosofía");
     echo 'El nombre del profesor es '. $p3->getNombre() .' e imparte la materia: ' . $p3->getMateria() .'<br>' ;
-    
+        
     // CONCATENANDO
     echo '<br>' . $p1->getNombre() . ', ' . $p2->getNombre() . ' y ' . $p3->getNombre() . ' son tres profesores de las materias: ' . $p1->getMateria() . ', ' . $p2->getMateria() . ' y ' . $p3->getMateria() . ' respectivamente.';
     //CON CORCHETES
