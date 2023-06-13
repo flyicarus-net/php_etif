@@ -13,9 +13,7 @@ session_start();
 
     <body>
         <h3>Bienvenido a la página de ejemplo #1</h3>
-        <h3>Hola<?php if (isset($_SESSION['USUARIO2'])) {
-                        echo ' ' . $_SESSION['USUARIO2'];
-                    } ?>!</h3>
+        <h3>Hola<?php if (isset($_SESSION['USUARIO2'])) { echo ' ' . $_SESSION['USUARIO2']; } ?>!</h3>
         <form action="ejemplo2.php" method="get">
             <input type="text" name="usuario" placeholder="Ingrese Usuario">
             <button type="submit">Crear Usuario</button>

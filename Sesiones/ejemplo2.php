@@ -1,8 +1,6 @@
 <?php
 session_start();
-
 $_SESSION['USUARIO1'] = $_GET['usuario'];
-$_SESSION['USUARIO2'] = "";
 ?>
 
 <!DOCTYPE html>
